@@ -116,6 +116,8 @@
 		42F93A4029FFD11B0072DDC1 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 42F93A3F29FFD11B0072DDC1 /* RNCryptor */; };
 		42F93A4229FFF9F50072DDC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F93A4129FFF9F50072DDC1 /* AppDelegate.swift */; };
 		42F93A5C2A022AA90072DDC1 /* Formatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F93A5B2A022AA90072DDC1 /* Formatter+Extension.swift */; };
+		51D69A632BA48C8A00986D56 /* DiiaOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D69A622BA48C8A00986D56 /* DiiaOSUITests.swift */; };
+		51D69A652BA48C8A00986D56 /* DiiaOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D69A642BA48C8A00986D56 /* DiiaOSUITestsLaunchTests.swift */; };
 		7B0AACE62B8B86E1007E00B8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7B0AACE52B8B86E1007E00B8 /* FirebaseAnalytics */; };
 		7B0AACE82B8B86EA007E00B8 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7B0AACE72B8B86EA007E00B8 /* FirebaseCrashlytics */; };
 		7B0AACF12B8B8D68007E00B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B0AACF02B8B8D68007E00B8 /* GoogleService-Info.plist */; };
@@ -180,6 +182,16 @@
 		9A8FD5F22B90D97500794736 /* FeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FD5EE2B90D97500794736 /* FeedPresenter.swift */; };
 		9A8FD5F32B90D97500794736 /* FeedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FD5EF2B90D97500794736 /* FeedModule.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51D69A662BA48C8A00986D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F9229729FBDC820072DDC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F9229E29FBDC820072DDC1;
+			remoteInfo = DiiaOpenSource;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		332236032B87927700E6B7AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -281,6 +293,9 @@
 		42F93A3529FFCF530072DDC1 /* ProlongStartPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProlongStartPresenter.swift; sourceTree = "<group>"; };
 		42F93A4129FFF9F50072DDC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42F93A5B2A022AA90072DDC1 /* Formatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter+Extension.swift"; sourceTree = "<group>"; };
+		51D69A602BA48C8A00986D56 /* DiiaOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiiaOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D69A622BA48C8A00986D56 /* DiiaOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiiaOSUITests.swift; sourceTree = "<group>"; };
+		51D69A642BA48C8A00986D56 /* DiiaOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiiaOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7B0AACF02B8B8D68007E00B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7B0AACF22B8C609E007E00B8 /* AnaliticsNetworkAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnaliticsNetworkAdapter.swift; sourceTree = "<group>"; };
 		7B0AACF42B8C60D8007E00B8 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
@@ -368,6 +383,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D69A5D2BA48C8A00986D56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -420,6 +442,7 @@
 			children = (
 				332236032B87927700E6B7AF /* README.md */,
 				42F922A129FBDC820072DDC1 /* DiiaOpenSource */,
+				51D69A612BA48C8A00986D56 /* DiiaOSUITests */,
 				42F922A029FBDC820072DDC1 /* Products */,
 				42F93A2429FFBAF30072DDC1 /* Frameworks */,
 			);
@@ -429,6 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				42F9229F29FBDC820072DDC1 /* DiiaOpenSource.app */,
+				51D69A602BA48C8A00986D56 /* DiiaOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -850,6 +874,15 @@
 			path = ProlongStart;
 			sourceTree = "<group>";
 		};
+		51D69A612BA48C8A00986D56 /* DiiaOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51D69A622BA48C8A00986D56 /* DiiaOSUITests.swift */,
+				51D69A642BA48C8A00986D56 /* DiiaOSUITestsLaunchTests.swift */,
+			);
+			path = DiiaOSUITests;
+			sourceTree = "<group>";
+		};
 		7B0AACEF2B8B8D68007E00B8 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
@@ -1128,6 +1161,24 @@
 			productReference = 42F9229F29FBDC820072DDC1 /* DiiaOpenSource.app */;
 			productType = "com.apple.product-type.application";
 		};
+		51D69A5F2BA48C8A00986D56 /* DiiaOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D69A6A2BA48C8A00986D56 /* Build configuration list for PBXNativeTarget "DiiaOSUITests" */;
+			buildPhases = (
+				51D69A5C2BA48C8A00986D56 /* Sources */,
+				51D69A5D2BA48C8A00986D56 /* Frameworks */,
+				51D69A5E2BA48C8A00986D56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51D69A672BA48C8A00986D56 /* PBXTargetDependency */,
+			);
+			name = DiiaOSUITests;
+			productName = DiiaOSUITests;
+			productReference = 51D69A602BA48C8A00986D56 /* DiiaOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1135,11 +1186,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					42F9229E29FBDC820072DDC1 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					51D69A5F2BA48C8A00986D56 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 42F9229E29FBDC820072DDC1;
 					};
 				};
 			};
@@ -1172,6 +1227,7 @@
 			projectRoot = "";
 			targets = (
 				42F9229E29FBDC820072DDC1 /* DiiaOpenSource */,
+				51D69A5F2BA48C8A00986D56 /* DiiaOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1207,6 +1263,13 @@
 				7BD75ADB2B679FCB000D54CA /* splash_cropped.json in Resources */,
 				42F931DC29FBF7D20072DDC1 /* SplashScreenViewController.storyboard in Resources */,
 				42F93A0629FBF7D90072DDC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D69A5E2BA48C8A00986D56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1369,7 +1432,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51D69A5C2BA48C8A00986D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D69A632BA48C8A00986D56 /* DiiaOSUITests.swift in Sources */,
+				51D69A652BA48C8A00986D56 /* DiiaOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51D69A672BA48C8A00986D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F9229E29FBDC820072DDC1 /* DiiaOpenSource */;
+			targetProxy = 51D69A662BA48C8A00986D56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		42F922AD29FBDC820072DDC1 /* LaunchScreen.storyboard */ = {
@@ -1503,13 +1583,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1535;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J29Y5XTW99;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DiiaOpenSource/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "${APP_NAME}";
+				INFOPLIST_KEY_CFBundleDisplayName = DiiaOS;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enabling Face ID allows you quick and secure access to your account";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1521,7 +1603,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 4.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ua.gov.diia.opensource.app;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.gov.diia.opensource.app.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1539,13 +1621,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1535;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J29Y5XTW99;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DiiaOpenSource/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "${APP_NAME}";
+				INFOPLIST_KEY_CFBundleDisplayName = DiiaOS;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Enabling Face ID allows you quick and secure access to your account";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1557,7 +1641,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 4.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ua.gov.diia.opensource.app;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.gov.diia.opensource.app.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1566,6 +1650,51 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		51D69A682BA48C8A00986D56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J29Y5XTW99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.alexanebo.DiiaOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiiaOpenSource;
+			};
+			name = Debug;
+		};
+		51D69A692BA48C8A00986D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J29Y5XTW99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.alexanebo.DiiaOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiiaOpenSource;
 			};
 			name = Release;
 		};
@@ -1586,6 +1715,15 @@
 			buildConfigurations = (
 				42F922B429FBDC820072DDC1 /* Debug */,
 				42F922B529FBDC820072DDC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D69A6A2BA48C8A00986D56 /* Build configuration list for PBXNativeTarget "DiiaOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51D69A682BA48C8A00986D56 /* Debug */,
+				51D69A692BA48C8A00986D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
